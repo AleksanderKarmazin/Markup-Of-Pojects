@@ -1,0 +1,106 @@
+table{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid red;
+    padding: 5rem;
+}
+tr{
+    border: 1px solid red;
+}
+
+
+.cell-01{
+    background-color: rgb(255, 230, 0);
+}
+
+.cell-02{
+    background-color: rgb(0, 140, 255);
+}
+
+.cell-03{
+    background-color: rgb(43, 255, 0);
+}
+.cell-04{
+    background-color: rgb(43, 255, 0);
+}
+.cell-05{
+    background-color: rgb(43, 255, 0);
+}
+.cell-1{
+    background-color: rgb(43, 255, 0);
+}
+.cell-2{
+    background-color: rgb(255, 0, 128);
+}
+.cell-3{
+    background-color: rgb(43, 255, 0);
+}
+.cell-4{
+    background-color: rgb(43, 255, 0);
+}
+.cell-5{
+    background-color: rgb(43, 255, 0);
+}
+.cell-6{
+    background-color: rgb(43, 255, 0);
+}
+.cell-7{
+    background-color: rgb(43, 255, 0);
+}
+.cell-8{
+    background-color: rgb(43, 255, 0);
+}
+.cell-9{
+    background-color: rgb(43, 255, 0);
+}
+.cell-10{
+    background-color: rgb(43, 255, 0);
+}
+.cell-11{
+    background-color: rgb(43, 255, 0);
+}
+.cell-12{
+    background-color: rgb(43, 255, 0);
+}
+.cell-13{
+    background-color: rgb(43, 255, 0);
+}
+.cell-14{
+    background-color: rgb(43, 255, 0);
+}
+.cell-15{
+    background-color: rgb(43, 255, 0);
+}
+.cell-16{
+    background-color: rgb(43, 255, 0);
+}
+.cell-17{
+    background-color: rgb(43, 255, 0);
+}
+.cell-18{
+    background-color: rgb(43, 255, 0);
+}
+.cell-19{
+    background-color: rgb(255, 0, 21);
+}
+.cell-20{
+    background-color: rgb(43, 255, 0);
+}
+.cell-21{
+    background-color: rgb(43, 255, 0);
+}
+.cell-22{
+    background-color: rgb(43, 255, 0);
+}
+.cell-23{
+    background-color: rgb(43, 255, 0);
+}
+.cell-24{
+    background-color: rgb(43, 255, 0);
+}
+.cell-25{
+    background-color: rgb(43, 255, 0);
+}

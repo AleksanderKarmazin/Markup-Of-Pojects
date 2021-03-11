@@ -1,0 +1,270 @@
+/*Обнуление*/
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	height: 100%;
+	background-color: #333;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
+}
+a {
+	color: #794f45;
+}
+h1 {
+	font-size: 40px;
+	line-height: 1;
+	margin: 0px 0px 50px 0px;
+}
+h2 {
+	font-size: 30px;
+	line-height: 1;
+	margin: 0px 0px 20px 0px;
+}
+ul {
+	list-style: none;
+}
+/* ================ */
+
+
+ .container{
+     display: grid;
+     height: 100%;
+     /* Делаем сетку грида
+     при помощи единого свойства
+     1) ряды
+     1.1 ШАПКА minmax() 100px до неограниченоб авто 
+     1.2 контент 
+     1.3 Футер 
+     ПОСЛЕ / - устанавливаются колонки 
+
+
+     */
+     grid-template:minmax(100px, auto) 1fr minmax(70px, auto)/1fr;
+     grid-template-areas: 
+        "header"
+        "main"
+        "footer" 
+     ;
+
+ } 
+
+.header{
+    background-color: blue;
+    grid-area:header;
+    padding: 15px;
+	background-color: #794f45;
+	align-items: center;
+	display: grid;
+	grid-template: 1fr / 
+    /* 70px
+    minmax(300px, auto)
+    70px */
+    
+    1fr minmax(auto, 500px) minmax(auto, 900px)  1fr 70px
+    
+
+    
+    ;
+}
+
+.header___logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: gainsboro;
+    /* Начальня / и конеч колонка куда помещается элемент */
+    /* grid-column: 1 / 2; */
+    grid-column: 2;
+    /* grid-column: 3 / 4; */
+    justify-self:start;
+
+}
+.header___logo2{
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    background-color: gainsboro;
+    /* Начальня / и конеч колонка куда помещается элемент */
+    /* grid-column: 1 / 2; */
+    /* grid-column: 3; */
+    grid-column: 5;
+
+    /* grid-column: 3 / 4; */
+    /* justify-content: center; */
+}
+
+.heder__menu{
+
+}
+
+.header__list{
+    display: grid;
+	grid-auto-flow: column;
+	justify-items: center;
+    /* grid-column: 3; */
+
+
+
+}
+
+.header__list li{
+    margin: 0px 20px 0px 0px
+}
+
+.header__link{
+    color: gainsboro;
+    font-size: 16px;
+}
+.header__burger{}
+.main{
+    background-color: darkorange;
+    grid-area:main;
+    padding: 30px 15px;
+    display:grid;
+    grid-template: 1fr / 
+    1fr minmax(250px, auto ) minmax(auto, 1100px) 1fr
+    
+
+}
+.sidebar{
+    grid-column: 2;
+    background-color: rgb(93, 228, 93);
+    padding: 30px 15px;
+    /* padding:  15px; */
+
+}
+.sidebar__menu{}
+.sidebar__list{}
+.sidebar__list li{
+    margin:0px 0px 15px 0px ;
+}
+
+.sidebar__link{
+    color: honeydew;
+    font-size: 20px;
+
+}
+.content{
+    grid-column: 3;
+    padding: 0px 0px 0px 50px ; 
+}
+.content__title{}
+.content__gallary {margin:0px 0px 300px 0px ;}
+.gallery{}
+.gallary__title{}
+.gallery__items{
+    display: grid;
+    gap: 10px;
+    /* grid-template-columns:repeat(auto-fill, 250px); */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.gallery_item{
+    position: relative;
+    padding: 0px 0px 85% 0px ; 
+
+    
+}
+.gallery_item img{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+.gallery_item_big{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.content__products{
+    
+}
+.products{}
+.products__title{}
+.product__items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 30px;
+    row-gap: 50px;
+}
+.product__item{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template: auto 1fr minmax(40px, auto)/ 1fr;
+     
+
+}
+.product__image{
+    position: relative;
+    padding: 0px 0px 90% 0px; 
+    margin:0px 0px 20px 0px ;
+}
+.product__image img{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product__name{
+    font-size: 27px;
+    text-decoration:none;
+    color: lavender;
+    line-height: 45px;
+    margin: 0px 0px 20px 0px ;
+}
+.product__button{
+    text-decoration:none;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    background-color:  rgb(46, 142, 252);
+    line-height: 40px;
+    justify-self: center;
+    padding: 7px 130px;
+}
+
+
+
+
+.footer{
+    background-color: blueviolet;
+    display: grid;
+    grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 900px)  1fr;
+    grid-area: footer;
+    padding: 50px;
+    /* align-items:start; */
+
+
+}
+.footer__copy{
+    grid-column: 2;
+    /* text-align:start; */
+
+    
+}
+.footer__text{
+    grid-column:  3;
+    text-align: right;
+    
+}
+
+
+
+
+@media (min-width: 68px) and (max-width: 1024px) {
+
+
+}

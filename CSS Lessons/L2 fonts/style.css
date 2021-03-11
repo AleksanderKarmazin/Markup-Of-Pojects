@@ -1,0 +1,52 @@
+.svg {
+  /* list-style:georgian; */
+  list-style: url("img/1.svg");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto&display=swap");
+
+@font-face {
+  font-family: "great_vibesregular";
+  src: url("/L2/greatvibes-regular-webfont.woff2") format("woff2"),
+    url("/L2/greatvibes-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* EM  - это колличество раз в которое увиличили 
+/уменьшили  элемент относительно родительского */
+.em {
+  font-size: 14px;
+}
+
+.spanClass {
+  font-size: 0.9em;
+}
+/* EM  - это колличество раз в которое увиличили 
+/уменьшили элемент относительно родительского*/
+
+/* REM  - это колличество раз в которое увиличили 
+/уменьшили  элемент относительно стандартного размера страницы*/
+
+
+/* html{
+    font-size: 10px; 
+} */
+
+
+
+
+.great_vibesregular {
+  /* font-family:'great_vibesregular' */
+  font-family: "Lobster", cursive;
+}
+.google {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+/* p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+} */

@@ -1,0 +1,29 @@
+.flex-m{
+    display: flex;
+    background-color: coral;
+    /* justify-self:center; */
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-m> div{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(255, 80, 197);
+}
+/* .flexboxA{
+    display: flex;
+    background-color: rgb(252, 255, 80);
+    justify-self: start;
+    align-self: flex-end;
+}
+.flexboxB{
+    display: flex;
+    background-color: rgb(100, 255, 80);
+    justify-self: center;
+}
+.flexboxC{
+    display: flex;
+    background-color: rgb(80, 83, 255);
+    flex-direction: row;
+    align-self: flex-end;
+} */

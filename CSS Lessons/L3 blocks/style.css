@@ -1,0 +1,100 @@
+.product-item__title{
+    margin: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.product-item__discription{
+    margin: 0;
+
+    border: 1px solid rgba(51, 255, 0, 0.966);
+}
+
+.product-item__title{
+    border: 1px solid red;
+    box-sizing: border-box;
+
+
+}
+.product-item__discription{
+    border: 1px solid rgba(51, 255, 0, 0.966);
+}
+
+.maim{
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.ch_1{
+    border: 2px solid rgb(255, 230, 0);
+    box-sizing: border-box;
+}
+.ch_2{
+    border: 2px solid rgb(30, 255, 0);
+    box-sizing: border-box;
+}
+.ch_3{
+    border: 2px solid rgb(0, 255, 200);
+    box-sizing: border-box;
+}
+.ch_4{
+    border: 2px solid rgb(17, 0, 255);
+    box-sizing: border-box;
+    margin: 0.4rem 20rem 0.4rem 0.4rem;
+}
+
+
+.maim2{
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.d-1{
+    border: 2px solid rgb(255, 230, 0);
+    box-sizing: border-box;
+    margin: 0rem 50% 0rem 0rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.d-2{
+    border: 2px solid rgb(30, 255, 0);
+    box-sizing: border-box;
+    margin: -3.39rem 0rem 0rem 50%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.d-3{
+    border: 2px solid rgb(0, 255, 200);
+    box-sizing: border-box;
+    margin: 0rem 50% 0rem 0rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.d-4{
+    border: 2px solid rgb(17, 0, 255);
+    box-sizing: border-box;
+    margin: -3.39rem 0rem 0rem 50%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.d-5{
+    border: 2px solid rgb(17, 0, 255);
+    box-sizing: border-box;
+    margin: 0rem 50% 0rem 0rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.d-6{
+    border: 2px solid rgb(162, 0, 255);
+    box-sizing: border-box;
+    margin: -3.39rem 0rem 0rem 50%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.d-7{
+    border: 2px solid rgb(255, 0, 106);
+    box-sizing: border-box;
+    margin: 0rem 50% 0rem 0rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.d-8{
+    border: 2px solid rgb(255, 0, 140);
+    box-sizing: border-box;
+    margin: -3.39rem 0rem 0rem 50%;
+    padding: 1rem 1rem 1rem 1rem;
+}

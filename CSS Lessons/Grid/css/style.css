@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 0.2fr 1.4fr 0.4fr;
+    grid-template-areas:
+    "nav nav"
+    "sidebar main"
+    "footer footer";
+}
+
+
+nav{
+    background-color: aqua;
+    grid-area: nav;
+
+}
+main{
+    background-color: chartreuse;
+    grid-area: main;
+}
+.sidebar{
+    background-color: crimson;
+    grid-area:sidebar;
+}
+
+footer{
+    background-color: darkblue;
+    grid-area:footer;
+
+}
