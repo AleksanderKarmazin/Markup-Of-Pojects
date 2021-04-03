@@ -68,7 +68,7 @@ img {
 /* Show case  */
 
 .showcase{
-    height: 500px;
+    height: 700px;
     background-color: var(--primary-color);
     color: #fff;
     position: relative;
@@ -179,14 +179,14 @@ img {
 
 /* Cloude */
 .cloude .grid{
-    height: 40%;
+    height: 60%;
     grid-template-columns: 4fr 3fr;
 }
 
 
 /* Lang */
 .lang>.container {
-    height: 30%;
+    height: 100%;
 }
 
 .lang>.flex{
@@ -207,4 +207,107 @@ img {
 
 .lang .card:hover{
     transform: translateY(-15px);
+}
+
+/* Footer */
+
+.footer .social a{
+    margin: 0 10px;
+}
+
+.footer{
+    height: 40%;
+}
+/* Tablets adn under */
+@media(max-width: 768px){
+    .grid, 
+    .showcase .grid,
+    .stats .grid,
+    .cli>.grid,
+    .cloude .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+
+    .showcase{
+        height: auto;
+    }
+    .showcase-text{
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .showcase-form{
+        justify-self: center;
+        margin: auto;
+    }
+
+    .cli .grid {
+        grid-template-columns: 1fr ;
+        grid-template-rows:  150px 70px 70px;
+        grid-template-areas:
+        "cli-img" 
+        "card-cli" 
+        "card-dep";
+        height: 50%;
+    }
+
+    .cloude .container{
+        height: 100%;
+    }
+
+    .lang .container{
+        height: 300%;
+    }
+
+    .footer{
+        height: 50%;
+        margin: 0;
+    }
+
+    .footer .grid-m {
+        display:grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: center;
+        grid-template-areas:
+        "f-logo" 
+        "f-nav" 
+        "social";
+        height: 120%;
+
+    }
+
+    .f-logo{
+        grid-area:f-logo;
+    }
+    .f-nav{
+        grid-area:f-nav;
+    }
+    .social{
+        grid-area:social;
+    }
+
+
+
+}
+
+
+/* Mobile */
+@media(max-width: 500px){
+    .navbar{
+        height: 110px;
+
+    }
+
+    .navbar .flex{
+        flex-direction: column;
+    }
+
+    .navbar ul{
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
 }

@@ -63,6 +63,18 @@
     color: #333;
 }
 
+.bg-primary a,  
+.btn-primary a,
+.bg-secondary a,  
+.btn-secondary a,
+.bg-dark a,  
+.btn-dark a{
+    color: #fff;
+}
+
+
+
+
 /* Text sizes */
 
 .lead{
@@ -110,7 +122,7 @@
 
 .grid-3{
     grid-template-columns: repeat(3, 1fr);
-    height: 50%;
+    /* height: 50%; */
 }
 
 
