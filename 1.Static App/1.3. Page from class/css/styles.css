@@ -2,6 +2,9 @@
 
 :root{
     --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
 }
 
 * {
@@ -136,6 +139,72 @@ img {
     padding-top: 100px;
 }
 
+.stats-heading{
+    max-width: 500px;
+    /* This put text in the middle */
+    margin: auto;
+}
 
 
+.stats .grid h3 {
+    font-size: 35px;
 
+}
+
+.stats .grid p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Cli */
+.cli .grid {
+    grid-template-columns:2fr 1fr ;
+    grid-template-rows: 70px 70px;
+    grid-template-areas:
+    "cli-img card-cli "
+    "cli-img  card-dep";
+    padding: 7px;
+    height: 30%;
+}
+
+.cli img{
+    grid-area:cli-img;
+}
+.card-cli{
+    grid-area:card-cli;
+}
+.card-dep{
+    grid-area:card-dep;  
+}
+
+/* Cloude */
+.cloude .grid{
+    height: 40%;
+    grid-template-columns: 4fr 3fr;
+}
+
+
+/* Lang */
+.lang>.container {
+    height: 30%;
+}
+
+.lang>.flex{
+    flex-wrap: wrap;
+}
+
+.lang .card{
+    text-align: center;
+    margin: 18px 10px 10px;
+    transition: transform 0.2s ease-in;
+}
+
+
+.lang .card h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.lang .card:hover{
+    transform: translateY(-15px);
+}
