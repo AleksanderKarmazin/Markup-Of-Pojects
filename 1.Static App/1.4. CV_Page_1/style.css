@@ -1,0 +1,103 @@
+/*  ===========================
+    Colors
+    ===========================
+*/
+:root {
+  --default: #e0494e;
+  --default2: #e61616;
+  --blue: #2d84fb;
+  --blue2: #2706df;
+  --lightGreen: #67c56e;
+  --lightGreen2: #08aa12;
+  --yellow: #f89d36;
+  --yellow2: #db7807;
+  --purple: #662e9b;
+  --purple2: #4c0094;
+  --black1: #212529;
+  --black2: #3c4858;
+  --grey: #8492a6;
+  /* --backgroundColor: #f9fafd; */
+  --backgroundColor: #eaedf2;
+  --white: #fff;
+}
+
+/* ====================
+    Reset
+   ====================
+*/
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body,
+input,
+textarea {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: var(--black1);
+  background-color: var(--white);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 114rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+@media only screen and (max-width: 996px) {
+  .container {
+    padding: 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 0 3rem;
+  }
+}
+
+/*  ===========================
+    Colors
+    ===========================
+*/
+
+/*  ===========================
+    Colors
+    ===========================
+*/
